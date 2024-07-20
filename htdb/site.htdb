@@ -1,0 +1,958 @@
+#include	vergiftung/macros
+
+#define	linkMP3(id)		/audio/vergiftung/${id}.mp3
+
+# http://www.garageband.com/mp3/buh.mp3?song_id=339
+# http://www.garageband.com/mp3/buh.mp3?song_id=340
+#define	tunes.m3u
+Content-type: AddType application/x-mpegurl
+
+#EXTM3U
+#EXTINF:229,Vergiftung - Last Perfect Day
+https://adjective.com/audio/vergiftung/339.mp3
+#EXTINF:164,Vergiftung - Audrey Hepburn
+https://adjective.com/audio/vergiftung/Vergiftung_AudreyHepburn_Edit.mp3
+
+#define	index.html
+	<head>
+	<title>Vergiftung: Home Page</title>
+	</head>
+	${background}
+	<!-- 8889 Tue Feb 18 21:23:20 PST 1997 -->
+	<center>
+	<img
+		height=216 width=501 alt="Vergiftung" align=middle
+		src="${v_images}/vergiftung.gif">
+	<br>         <i>are an equal-technological anti-poportunity</i>
+	${copyright}
+	</center>
+	<p>
+	<center>
+	<table border=0 cellpadding=10 cellspacing=0 bgcolor="#efefef" width="90%">
+	<tr><td colspan=3 bgcolor="#333333" align="center">
+	<font color="#cfcfcf"><b>downloads + the artist's subjections</b></font>
+	</td></tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/day.html">
+			<b><i>Last Perfect Day</i></b></a><br>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=339)}">mp3</a>
+		</td>
+		<td valign=top>
+		Brian Wilson melodies abound (or something)..
+		Featuring dreamy guitar sample from the Jazz Butcher tune
+		Rosemary Davies World Of Sound, and a studio drum loop from
+		Poi Dog Pondering's Frank Orrall.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="/htdb/vergiftung/gigs.html">
+			<b><i>Flibberty Jib</i></b></a><br>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_19941029_FlibbertyJib)}">mp3</a>
+		</td>
+		<td valign=top>
+		We played a rave billed as Linda McCartney On Tour.. Halloween gig with Whittemore, Bruce (ex-Fuzz Factor) Stevens on guitar.  Matt sharp provided beats for this Ken Nordine "cover".
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="/htdb/vergiftung/gigs.html">
+			<b><i>Trumpette</i></b></a><br>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_19941029_Trumpette)}">mp3</a>
+		</td>
+		<td valign=top>
+		We played a rave billed as Linda McCartney On Tour.. Halloween gig with Whittemore Bruce (ex-Fuzz Factor) Stevens on guitar.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/thursday.html">
+			<b><i>Perpetually Thursday</i></b></a><br>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_19941029_PerpetuallyThursday)}">mp3</a>
+		</td>
+		<td valign=top>
+		We played a rave billed as Linda McCartney On Tour.. Halloween gig with Whittemore Bruce (ex-Fuzz Factor) Stevens on guitar.  Me singing a Brady song.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/orbit.html">
+			<b><i>Orbit</i></b></a>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_Orbit_Edit)}">mp3</a>
+		</td>
+		<td valign=top>
+		A Big Ballad.
+			<a href="${del_gallery}/jessica.html">Jessica</a>  called it the <i>Radio Tune</i>.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<b><i>O Danny Boy</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_ODannyBoy)}">mp3</a>
+		</td>
+		<td valign=top>
+		This was the first piece recorded as the Sharp/Whittemore Vergiftung duo.
+		Yes.. This is indeed a 21 minute piece.  All improvised and multitracked
+		under the influence of drunken inspiration.  We think it is still quite
+		enjoyable for those who appreciate such things.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<b><i>Thing</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_Thing)}">mp3</a>
+		</td>
+		<td valign=top>
+		Shamefully vaguely Bruce Hornsby.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<b><i>Soon (MBV remix)</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_1992SoonRemix_Edit)}">mp3</a>
+		</td>
+		<td valign=top>
+		Got the new My Bloody Valentine single. Remixed it.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Lost In Her Head</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=341)}">mp3</a>
+		</td>
+		<td valign=top>
+		Country & western disco pop.
+		Amazing what you can do by bouncing tracks between 2 DAT
+		machines and overdubbing simultaneously.  Recorded in one
+		evening.  Brady sings to a hat stand. Delightful slide-guitar
+		work by Martin Stebbing.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/audrey.html">
+			<b><i>Audrey Hepburn</i></b></a>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_AudreyHepburn_Edit)}">mp3</a>
+		</td>
+		<td valign=top>
+		Big Happy Beat-y.
+		Lyrics by The Belgian Waffles. Tune by Sharp/Whittemore.
+		Bassline sample from the original Belgian Waffles version. "Grunge" guitar by Roman Candle's Don Baker.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>C'est Bon</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=11799)}">mp3</a>
+		</td>
+		<td valign=top>
+		Dortmunder beer rules
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Club Entropy</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=345)}">mp3</a>
+		</td>
+		<td valign=top>
+		You'll never guess where the string sample came from.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Girlfriend</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_Girlfriend_Edit)}">mp3</a>
+		</td>
+		<td valign=top>
+		No one seems to like this song but me, and I think it rocks.
+		Brady's hopelessly hopeless vocal stylings crack me up
+		on this one.  The whimpy guitar isn't bad, either.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Resolution</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_Resolution_Edit)}">mp3</a>
+		</td>
+		<td valign=top>
+		Ambient, instrumental.
+		At volume, this one can rip your bowels open.  A beautiful,
+		moody, self-contained dream world.  I hope you enjoy it.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Among The Ruins</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=11801)}">mp3</a>
+		</td>
+		<td valign=top>
+		Introspective, sensitive guy ballad.  I like the reverbed kick that
+		sounds like a heartbeat.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>I'll Take Vermont</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_IllTakeVermont_Edit)}">mp3</a>
+		</td>
+		<td valign=top>
+		Bowie, or something.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>The Chux Of Luv</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_ChuxOfLove)}">mp3</a>
+		</td>
+		<td valign=top>
+		From the now infamous National Soil Erosion Sound Laboratory
+		recording sessions.  The payback is in the subtle details.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Cicero and Devon</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=342)}">mp3</a>
+		</td>
+		<td valign=top>
+		A bastardization, years after the fact, of a simple geetar
+		strumming whimsy. Features the lovely Signals from the
+		Planet A.M. and a deliberately amateurish jungle drum loop. 
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Moon River</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=11802)}">mp3</a>
+		</td>
+		<td valign=top>
+		Deep experimentation adlib between Whittemore and Sharp.
+		You've been warned.
+		<br>
+		</td>
+	</tr>
+		<td valign=top>
+		<a href="${v_lyrics}/sandwich.html">
+			<b><i>The Sandwichmaker</i></b></a>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=sandwich)}">mp3</a>
+		</td>
+		<td valign=top>
+		Brady is lost in the kitchen.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Shindig</i></b><br>Live
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=Vergiftung_Shindig_Live)}">mp3</a>
+		</td>
+		<td valign=top>
+		Groovy
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/urgent.html">
+			<b><i>Urgent/Aid</i></b></a>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_UrgentAid)}">mp3</a>
+		</td>
+		<td valign=top>
+		Straight-up tech-disco
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Lake Effect Snow</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=snow)}">mp3</a>
+		</td>
+		<td valign=top>
+		Swirly
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<b><i>Actually, It Occurred To Me</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_ActuallyItOccurredToMe)}">mp3</a>
+		</td>
+		<td valign=top>
+		Matt Sharp accosts Ms Hollingsworth's answering machine late at night.
+		Worth waiting around for the end.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<b><i>Maggots</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_Maggots)}">mp3</a>
+		</td>
+		<td valign=top>
+		Matt Sharp, Jody Long and I try my neighbor's patience.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+			<b><i>So Sue Us</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_SoSueUs)}">mp3</a>
+		</td>
+		<td valign=top>
+		Matt Sharp and I bastardize some samples of the Purdue pacifist band
+		<i>Icemakers Of The Revolution</i>.  This was a limited-edition release
+		on re-used cassettes that sold for 33 cents (after tax).  The Icemakers
+		were perplexed.  As you probably will be.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/whale.html">
+			<b><i>Whale</i></b></a>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_Whale_Edit)}">mp3</a>
+		</td>
+		<td valign=top>
+		Justified ambient disco epic.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/why.html">
+			<b><i>Why?</i></b></a>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=why)}">mp3</a>
+		</td>
+		<td valign=top>
+		Damnit!  Outta My Head!
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Filth</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=Vergiftung_Filth_Edit)}">mp3</a>
+		</td>
+		<td valign=top>
+		Brady crucifies a Black Eg tune.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Pepto Bismol</i></b>
+		</td>
+		<td valign=top>
+		<a href="${linkMP3(id=pepto)}">mp3</a>
+		</td>
+		<td valign=top>
+		Sick, confused
+		<br>
+		</td>
+	</tr>
+
+	<tr>
+		<td valign=top>
+		<b><i>The Beer Song</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=beersong)}">mp3</a>
+		</td>
+		<td valign=top>
+		Bell-like sounds from playing samples past their range.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>The Beer Song (live)</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=19910913_Vergiftung_AcmeArtCo_ColumbusOH_BeerSong)}">mp3</a>
+		</td>
+		<td valign=top>
+		Opening for (Trade)Mark Gunderson of the Evolution Control Committee (ECC) at the
+		Acme Art Co. in Columbus Ohio.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>(Dis)Continuity</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=continuity)}">mp3</a>
+		</td>
+		<td valign=top>
+		Matt and I (or was it Jody), probably drunk (see?), improvising on dueling samplers
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Carrie Newcomer (On The Rack)</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=newcomer)}">mp3</a>
+		</td>
+		<td valign=top>
+		A 2-second voice sample of Carrie Newcomer, stepped-through veeerrryyy sssslllloooowwwwlllyyyy.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Darling Nikki</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=Vergiftung_DarlingNikki)}">mp3</a>
+		</td>
+		<td valign=top>
+		My adopted son Jody sings the Prince song through pitch shifters.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Pluto</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=pluto)}">mp3</a>
+		</td>
+		<td valign=top>
+		An adaptation of the <i>M, Walking On The Water</i> tune.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Shindig (original)</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=shindig)}">mp3</a>
+		</td>
+		<td valign=top>
+		Timothy Leary raps to a nice 10-bar loop.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Stepping Out</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=Vergiftung_SteppingOut)}">mp3</a>
+		</td>
+		<td valign=top>
+		My adopted son Jody pretends he has a diva's viking hat on and sings the Joe Jackson song.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Up Around Devon</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=uparounddevon)}">mp3</a>
+		</td>
+		<td valign=top>
+		Noise.  And lots of it.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Whale (Studio)</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=whale_studio)}">mp3</a>
+		</td>
+		<td valign=top>
+		A now-wiped version of <i>Whale</i> as recorded onto 2" tape.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Von Dammerung Revenge</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=revenge)}">mp3</a>
+		</td>
+		<td valign=top>
+		In 1992, Pat Fish was accosting me with <i>Black Eg</i> cassettes,
+		so I decided to retaliate a bit.  This is a massive, 23-minute, 30Meg
+		free-form composition.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>I've Lost My Hold (live)</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=hold)}">mp3</a>
+		</td>
+		<td valign=top>
+		28Sep1991, multi-band end-of-summer event sponsored by Von's Records
+		of West Lafayette, IN.  This is a killer Matt Sharp composition,
+		which completely blew away anything done by the disco fag band which
+		played after us.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Pluto (live)</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=plutolive)}">mp3</a>
+		</td>
+		<td valign=top>
+		28Sep1991, a live version of Pluto, with Jody mixing his wacky cassettes
+		and John Davison playing live drums.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>My Funny Valentine (live)</i></b>
+		</td>
+		<td valign=top>
+	<a href="${linkMP3(id=valentine)}">mp3</a>
+		</td>
+		<td valign=top>
+		28Sep1991, a John Davison/Matt Sharp arrangement of the classic, based
+		around a vocal sample of Frank Sinatra.  We had technical difficulties
+		towards the end of this song.  I've edited out most of the buzzing but
+		left in a bit at the tail end for those who like noise.  Mmmm.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/sheep.html">
+			<b><i>My Darling Darjeeling</i></b></a>
+		</td>
+		<td valign=top>
+		<a href="${v_audio}/19930906_Vergiftung_Sheep.mp3">mp3</a><br>4.0M
+		</td>
+		<td valign=top>
+		Sheep!
+		<br>
+		</td>
+	</tr>
+
+	<tr><td colspan=3 bgcolor="#333333" align="center">
+	<font color="#cfcfcf"><b>older encodings, lower quality</b></font>
+	</td></tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/duck.html">
+			<b><i>Duck</i></b></a>
+		</td>
+		<td valign=top>
+		<a href="${v_audio}/duck.mpa">mpa</a><br>.83M
+		</td>
+		<td valign=top>
+		What can you say?  Ha Ha Ha.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/whale.html">
+			<b><i>Whale</i></b></a><br>Live
+		</td>
+		<td valign=top>
+		<a href="${v_audio}/whale_rave.mpa">mpa</a><br>2.2M
+		</td>
+		<td valign=top>
+		Justified ambient disco epic.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<a href="${v_lyrics}/arvo.html">
+			<b><i>Arvo Party</i></b></a>
+		</td>
+		<td valign=top>
+		<a href="${v_audio}/arvo.mpa">mpa</a><br>2.3M
+		</td>
+		<td valign=top>
+		It ain't pop - Adlib sound collage.
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Brian Counts</i></b>
+		</td>
+		<td valign=top>
+		<a href="${v_audio}/brian.mpa">mpa</a><br>1.1M
+		</td>
+		<td valign=top>
+		Wilson in full effect
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>Polka Dots</i></b>
+		</td>
+		<td valign=top>
+		<a href="${v_audio}/dots.mpa">mpa</a><br>1.7M
+		</td>
+		<td valign=top>
+		Brady needs a date
+		<br>
+		</td>
+	</tr>
+	<tr>
+		<td valign=top>
+		<b><i>The Gravity Of Sound</i></b>
+		</td>
+		<td valign=top>
+		<a href="${v_audio}/gravity.mpa">mpa</a><br>1.6M
+		</td>
+		<td valign=top>
+		Sweet, confused
+		<br>
+		</td>
+	</tr>
+	<tr><td colspan=2 bgcolor="#333333" valign="top">
+	<a href="${del_gallery}/vergiftung_studio.html"><img
+		height=169 width=250 alt="[studio photo]"
+		src="${del_galpix}/thumb/250/vergiftung_studio.jpg" border=0></a>
+	</td>
+	<td colspan=1 bgcolor="#333333" valign="top">
+	<font color="#cfcfcf">
+	Vergiftung were:<p>
+	${linkExternal(https://mnslab.com, Matt Sharp)}<br>
+	${linkExternal(https://davidwhittemore.com, David Whittemore)}<br>
+	Brady Branam<br>
+	John Davison<br>
+	Jody Long<br>
+	Martin Stebbing<p>
+	and their guests - sampled or otherwise.
+	</font>
+	</td></tr>
+	</table>
+	${footer}
+
+#define	sharp.html
+	<head>
+	<title>David: Matt Sharp</title>
+	</head>
+	${background}
+	<center>
+	<b>Matt Sharp -v- <a href="${v_root}/index.html">Vergiftung</a></b>
+	</center>
+	<hr>
+	The original Vergiftung was the brainchild of one Matt Sharp,
+	alcoholic/musical genuis, and dates from the late 80's.
+	<p>
+	At the time he still attended Indiana University, and I had gone to
+	a couple of <a href="${waffles_root}/index.html">Belgian Waffles</a>
+	shows in Bloomington, Indiana where Matt was a fixture as <i>
+	that guy who made noise to piss people off</i>. I would take
+	<a href="${del_gallery}/index.html">photos</a>
+	and generally stand in corners.
+	<p>
+	Matt's music was not bad, in fact he had great "concepts" and contempt
+	for whatever was popular (he still does).  This aspect of him
+	is one reason we got along so well.
+	<p>
+	After Matt moved here to Purdue University, somehow we hooked up and
+	started making noise.  At the time, I was a complete novice at actually
+	making sound, although I had a great appreciation for it (it has
+	something to do with <a href="${del_gallery}/trees.html">my
+	background</a>, I guess).  About that time, I had played around
+	some with a sampler belonging to John Davison, and I knew it was
+	something that I could learn to love.
+	<p>
+	The earliest stuff that Matt and I emitted occurred right after I had
+	picked up a Sony D3 DAT tape recorder.  Our first production,
+	the 22 minute epic sound-collage
+	<a href="${v_discog}/91Aug3-o_danny_boy.html"><i>O Danny Boy</i></a>
+	was a 4-track wonder, and would probably get us sued out of
+	existance if it were ever commercially released.
+	From the KLF to Elvis to disco and back, it is something I am
+	still proud of.
+	<p>
+	Then I bought a sampler for myself, and for about a year and a half,
+	Vergiftung was a spontaneous drunken phenomenon,
+	and it is all documented - there are
+	<a href="${v_discog}/index.html"><b>hours</b></a>
+	of it digitally preserved for anyone who is curious.
+	<p>
+	Apparently, conflict-of-females came into the picture, I discovered
+	some sense of quality control,
+	<a href="${del_images}/brady.jpg">Brady</a> started
+	coming 'round my apartment, and Matt began to loose interest in what I
+	was churning out.  Our last live show together was at The Lower Links
+	in Chicago in December,
+	1992 - it was a nice slide show, and the people seated on the
+	dank floor at least clapped once.  Everyone (including those on-stage)
+	were perplexed.  In the audience was a friend whom I know through
+	<a href="${jbc_root}/index.html"> the Jazz Butcher</a>, one
+	<a href="${jbc_people}/martin_stebbing.html">Martin Stebbing</a>
+	who happened to be a recording engineer with a perverse sense
+	of taste. Within the month, Vergiftung were in the studio, sans Sharp.
+	<p>
+	With Matt decidedly retreated into the bars, the Whittemore/Brady Branam
+	alliance became one of necessity - I had things to express, and although
+	I wished Matt to be involved, I didn't let it stop me.
+	<p>
+	With Matt no longer interested in making music, I continued on with what
+	I was doing under the Vergiftung name.
+	This is what you find here.
+	<p>
+	<b>Epilogue</b>
+	<p>
+	Matt is soon to attend graduate school, either at MIT, or in
+	Chapel Hill.  He has played around some with music some since,
+	adding beats where his unique style is requested.  I wish him the
+	best with everything, and without him, none of this would
+	have been possible.
+	<p>
+	Thank you Matt.
+	${footer}
+
+#define	copyright.html
+	<head>
+	<title>Vergiftung: Material is COPYRIGHT</title>
+	</head>
+	${background}
+	All audio and lyrical content Copyright
+	1991-${_current_year} by <a href="${v_root}/site">Vergiftung</a>.
+	<p>
+	Permission is granted for personal use in the form of
+	reviewing the electronic text, audio and images.
+	Commercial use without explicit written consent of
+	the author is prohibited.
+	<p>
+	Re-distribution is <b>not permitted</b>.
+	<p>
+	<a href="${del_root}/index.html">David Whittemore</a>
+	<a href="mailto:del@adjective.com">del@adjective.com</a>
+	${footer}
+
+#define	gigs.html
+	<head>
+	<title>Vergiftung: Upcoming Gigs</title>
+	</head>
+	${background}
+	<center>
+	${icon_penguin}
+	<b><a href="${v_root}/index.html">Vergiftung</b></a>
+	${icon_duck}
+	<hr>
+	<b><font size=+2>U</font>pcoming <font size=+2>G</font>igs</b>
+	(more doubtful)
+	</center>
+	<hr>
+	<b>29 Oct 1994</b> -
+	<img alt="[image]" src="${v_images}/flyer.gif">
+		<b>A Rave!</b>
+	<img alt="[image]" src="${v_images}/flyer.gif">
+	<blockquote>
+	Hidden in one of 3 buildings for this Halloween gig were
+	<a href="${del_root}/index.html">me</a>
+	and <a href="http://soils.ecn.purdue.edu/~del/bruce">Bruce</a>
+	(ex-Fuzz Factor).
+	There was Country&amp;Western techno, relative strangeness and a damn
+	good time.
+	</blockquote>
+	<b>Samples Used</b>
+	<ul>
+	<li>Ecstacy Of St Theresa - Original Soundtrack</li>
+	<li><a href="http://hyperreal.com/music/artists/seefeel/seefeel.html">
+		Seefeel</a> - Quique</li>
+	<li>Scott Walker - Scott 3</li>
+	<li>Moonshake - (oh, his newest one)</li>
+	<li>The Insect Musicians</li>
+	<li>Vergiftung - (various sources)</li>
+	</ul>
+	<b>Listen</b>
+	<blockquote>
+		<a href="${linkMP3(id=Vergiftung_19941029_FlibbertyJib)}">Flibberty Jib</a>
+		<br>
+		<a href="${linkMP3(id=Vergiftung_19941029_Trumpette)}">Trumpette</a>
+		<br>
+		<a href="${linkMP3(id=Vergiftung_19941029_PerpetuallyThursday)}">Perpetually Thursday</a>
+	</blockquote>
+	<b>A Review</b>
+	<blockquote>
+	We were billed as <b>Linda McCartney On Tour</b>..
+	We had a very quick set-up and level check before the
+	hordes were allowed through the front gate.  Then we waited until
+	our 11h30pm time-slot.  Even though this was the "chill-out" room,
+	a surprising number of people stayed for the entire 50:58 performance,
+	which I took as a good sign.  Bruce did his affected guitar bits
+	to satisfaction, but we decided against his vocals on the
+	<i>"Come On Baby, Let's Make Babies"</i> C&amp;W tune.  Overall, the
+	vocals were too low in the mix, and the sound system was slightly
+	underpowered.  But nobody threw anything, so chalk up a win for us.
+	<p>
+	Tapes are available from
+	<a href="http://soils.ecn.purdue.edu/~del/bruce/moose.html">
+	Moosetone Records</a>
+	<p>
+	Special thanks to <a href="${v_root}/sharp.html">Matt Sharp</a> for
+	allowing the use of two of his tunes.
+	</blockquote>
+	${footer}
+
+#define	bio.html
+	<head>
+	<title>Vergiftung: Blatant Self-Promotion</title>
+	</head>
+	${background}
+	${header}
+	Without stopping to gawk at the audience, <i>play</i> was pressed.
+	<br>Budvar.  Important.
+	<br><i>&quot;This one's in <b>C</b> isn't it?
+	I can't tune this geetar thing.  There's a chorus?&quot;</i>
+	<hr>
+	<a href="${jbc_people}/martin_stebbing.html">Martin Stebbing</a>,
+	aka The Rev. Botus Flemming, had worked as engineer
+	and producer with
+	<a href="${jbc_root}/index.html">the Jazz Butcher</a>,
+	McCarthy, and The Wolfhounds.
+	Through fate, airfare, and marriage he found himself distinctly in
+	Chicago as Jive Records engineer recording things he'd no idea about.
+	The Fresh Prince.  PM Dawn.  Chuck D.  Primal Scream.  George Clinton.
+	<p>
+	Snowy and disconsolate he sat in a basement club watching what could
+	have been a decent slide show.  Vergiftung stared at the audience and
+	they stared back.  Martin smiled.  A deal was made.
+	Into Jive they went.
+	Out came what can only be described as
+	<a href="${jbc_audio}/unrivaled.mp3"><i>&quot;unrivaled
+	in the prairies.&quot;</i></a>
+	<p>
+	Actually, I can't seem to get away from them.  Whatever they do they
+	leave an impression.  I find myself waiting for their latest Tune and
+	moving further from my CDs and radio tuner.
+	<p>
+	What is it about David, Martin, and Brady that makes their
+	music different from the usual fare of guitar, food lyric, and beat?
+	Why should you find it interesting?
+	<p>
+	The beat maker, <a href="${del_root}/index.html">David</a>,
+	lives on sofa-sleepers, couches in a pinch.
+	Brady, the guitar player, makes sandwiches and attracts more psychotic
+	Chicago bobbed-hairs than exist.
+	Martin now plays bass and guitar.
+	He's the resident alien, and looks it.
+	At the mention of brussels sprouts David sighs,
+	Martin's eyes gloss over, and Brady runs screaming from the room.
+	<p>
+	Vergiftung don't write folk, but for those who have been
+	'round the kitchen
+	once or twice.  The Tunes are aural forays,
+	dreamy vituperation, exercises
+	into mental futility, and terpsichorean rhythms.
+	<hr>
+	Further fun facts may be had by contacting Vergiftung:
+	<p>
+	del@adjective.com
+	${footer}
+
+#define	linkback.html
+	<head>
+	<title>Sites that point back to Vergiftung</title>
+	</head>
+	${background}
+	${header}
+	<b>Sites that point back to this site</b>
+
+	<hr>
+	<ul>
+	<li><a href="http://www.fuego.de/mww/">
+		M Walking On The Water</a>
+	</li>
+	<li><a href="http://soils.ecn.purdue.edu/~del/bruce/mus.html">
+	Bruce Stevens</a>
+	</li>
+	</ul>
+	${footer}

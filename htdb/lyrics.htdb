@@ -1,0 +1,666 @@
+#include	vergiftung/macros
+
+#define	top
+	${header} : <font size=+2><i>Lyrics</i></font>
+
+#define	index.html
+	${top}
+	<dl>
+	<dd><a href="${v_lyrics}/arvo.html">Arvo Party</a></dd>
+	<dd><a href="${v_lyrics}/audrey.html">Audrey</a></dd>
+	<dd><a href="${v_lyrics}/day.html">Last Perfect Day</a></dd>
+	<dd><a href="${v_lyrics}/duck.html">Duck</a></dd>
+	<dd><a href="${v_lyrics}/orbit.html">Orbit</a></dd>
+	<dd><a href="${v_lyrics}/pluto.html">Pluto</a></dd>
+	<dd><a href="${v_lyrics}/sandwich.html">The Sandwichmaker</a></dd>
+	<dd><a href="${v_lyrics}/thursday.html">Perpetually Thursday</a></dd>
+	<dd><a href="${v_lyrics}/urgent.html">Urgent</a></dd>
+	<dd><a href="${v_lyrics}/whale.html">Whale</a></dd>
+	<dd><a href="${v_lyrics}/why.html">Why</a></dd>
+	</dl>
+	${footer}
+
+#define	arvo.html
+	<head>
+	<title>Vergiftung Lyrics: Arvo Party</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>A</font>rvo <font size=+2>P</font>arty</b>
+	${copyright}
+	</center>
+	<p>
+	Samples from <b>Arvo P&auml;rt's</b> <i>Miserere</i>,
+	ECM New Series 1430.
+	<br>This is what can happen when two people, a guitar, a CD player,
+	The Might Casio SK1, a cassette tape of <a
+	href="${del_images}/alex.gif">a friend</a>
+	walking through Vienna and Dortmunder Union beer meet late at night.
+	When people ask <i>"what <b>is</b> Vergiftung all about"</i>, Brady and
+	I play stuff like this for them.
+	<p>
+	If you haven't noticed by now, Vergiftung flirts with the "pop" side
+	of things, but music like <b>Arvo Party</b> is our roots, and it is
+	what we would like to do more of - working with sequencers is a bit
+	of a curse in that once a drum line, or anything else is in the
+	machine, the song structure is pretty much fixed.
+	<a href="${v_root}/sharp.html">Here is the
+	ancient history of Vergiftung</a>.
+	<p>
+	Occasionally, we start something new with no idea where it will end
+	and just do it.  The results are usually rewarding.
+	<p>
+	However, when people ask <a href="${v_root}/gigs.html"><i>"when
+	are you playing live again"</i></a>, we have a bit of a problem.
+	You see, people at concerts <b>expect</b> a drummer.
+	Seeing how we have only used a real drummer on one tune so far
+	(<a href="${v_lyrics}/orbit.html"><b>Orbit</b></a>), this
+	leaves 2 (or 3) guys standing onstage appearing naked to the expecting
+	audience.  (the last time we played, we covered some BIG boxes with
+	wrapping paper to be placed onstage - get it?  <i>stage presents?</i>)
+	<p>
+	Add to it that we would like to present people with more "difficult"
+	music like <b>Arvo Party</b> and have them not throw stuff at us and
+	you can see our dilemma.
+	<p>
+	What is Vergiftung?  All you find here and more.  We are capable of
+	much, and have considerable contempt for run-of-the-mill,
+	well, you know.  Radioland.  That place.  Good for a laugh but
+	not much more.  What're 3 to do in the face of it all?
+	Alex Chilton is near-death.
+	<p>
+	Give up?
+	<p>
+	Hell no.
+
+	${footer}
+
+#define	sheep.html
+	<head>
+	<title>Vergiftung Lyrics: My Darling Darjeeling</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>M</font>y
+		<font size=+2>D</font>arling
+		<font size=+2>D</font>arjeeling</b>
+	${copyright}
+	</center>
+	<p>From the Sun (workstation) Sessions at the National Soil
+	Erosion Sound Laboratories, 1994.
+	Features a sheep sample scavenged from the Web, and Brady
+	playing a lovely pastoral on the geetar.  Oh yeah, and an
+	introduction by ABBA.
+
+	${footer}
+
+#define	audrey.html
+	<head>
+	<title>Vergiftung Lyrics: Audrey Hepburn</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>A</font>udrey <font size=+2>H</font>epburn</b>
+	${copyright}
+	<br><img height=171 width=153 alt="[Audrey Hepburn]" border=2 hspace=5
+		align=left src="${v_images}/audrey.gif">
+	<br><I>lyrics by <a href="${waffles_root}"><b>The
+	Belgian Waffles</b></a> tune by <b>Sharp/Whittemore</b></I>
+	<br>Bassline sample from the original <b>Belgian Waffles</b> version.
+	<br>"Grunge" guitar by
+	<a href="http://soils.ecn.purdue.edu/~del/bruce/don.html">
+	<b>Roman Candle's</b> Don Baker</a>.
+	</center>
+	<br clear=all>
+	<hr>
+	<tt>
+	I don't know why<br>
+	But it seems to me<br>
+	That another Kruschev<br>
+	Is what we need<br>
+<br>
+	I don't know why<br>
+	But it seems to me<br>
+	That another Kruschev<br>
+	Is what we need<br>
+<br>
+	Cause I find I'm bleeding<br>
+	For Czech-o-sluh-vakia<br>
+	I wanna be working<br>
+	For a Dow Chemical plant<br>
+<br>
+	I find I'm reading<br>
+	Lots of William T Vollmann<br>
+	I find I'm watching<br>
+	Audrey Hepburn and Cary Grant<br>
+<br>
+	I don't know why<br>
+	But it seems to me<br>
+	That another Kruschev<br>
+	Is what we need<br>
+<br>
+	I don't know why<br>
+	But it seems to me<br>
+	That another Kruschev<br>
+	Is what we need<br>
+<br>
+	Coz I groove on Audrey Hepburn<br>
+	And I watch lots of Audrey Hepburn<br>
+	I wanna be working<br>
+	In a Dow Chemical plant<br>
+	I'm going to move to Czech-o-sluh-vakia<br>
+	I wanna be working<br>
+	In a Dow Chemical plant<br>
+<br>
+	I don't know why<br>
+	But it seems to me<br>
+	That another krushev<br>
+	Is what we need<br>
+<br>
+	I don't know why<br>
+	But it seems to me<br>
+	That another krushev<br>
+	Is what we need<br>
+<br>
+	Cause I go for Audrey Hepburn<br>
+	And I believe in <a href="http://www.ksc.nasa.gov/history/apollo/apollo-7/apollo-7.html">Apollo 7</a><br>
+	I groove on Pet Clark records<br>
+	And I believe in the death of Buddy Ebsen<br>
+<br>
+	I don't know why<br>
+	But it seems to me<br>
+	That another krushev<br>
+	Is what we need<br>
+<br>
+	I don't know why<br>
+	But it seems to me<br>
+	That another krushev<br>
+	Is what we need<br>
+<br>
+	Cause I go for Audrey Hepburn<br>
+	And I believe in <a href="http://www.ksc.nasa.gov/history/apollo/apollo-7/apollo-7.html">Apollo 7</a><br>
+	I groove on Pet Clark records<br>
+	And I believe in the death of Buddy Ebsen<br>
+	</tt>
+	${footer}
+
+#define	day.html
+	<head>
+	<title>Vergiftung Lyrics: Last Perfect Day</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>L</font>ast
+		<font size=+2>P</font>erfect <font size=+2>D</font>ay</b>
+	${copyright}
+	<p>
+	<a href="${del_gallery}/jessica.html">
+	<img height=368 width=250 alt="[image]" align=left hspace=5 border=2
+		src="${del_galpix}/thumb/250/jessica.jpg"></a>
+	<br><I>lyrics by <b>Branam/Whittemore</b> tune by <b>Whittemore</b></I>
+	<br>Featuring dreamy guitar sample from the
+	<a href="${jbc_root}"><b>Jazz Butcher</b></a> tune
+	<a href="${jbc_lyrics}/rosemary_davis.html"><i>Rosemary
+	Davies World Of Sound</i></a>,
+	and a studio drum loop from
+	<a href="http://www.poidogpondering.com">
+	<b>Poi Dog Pondering's</b></a> Frank Orrall.
+	</center>
+	<br clear=all>
+	<hr>
+	<tt>
+	I was driving on route 1,<br>
+		it was the first road that I could find.<br>
+	Is it enough to think of you, or do I have to be there too?<br>
+<br>
+	I won't be there tomorrow; I'm too far gone.<br>
+	I always know just what to do<br>
+		but I never seem to be able to.<br>
+<br>
+	In the rearview: detours, sunsets;<br>
+	I can't find that map to love<br>
+	Leaving postcard twilight miles behind<br>
+	In towns I've never heard of<br>
+<br>
+	I won't be there tomorrow; I'm too far gone.<br>
+	I always know just what to do but<br>
+		I never seem to be able to.<br>
+	Not able to...<br>
+<br>
+	jessica: [Come on, I don't believe it,<br>
+		you left me here last night!<br>
+		Drunk, alone, with people that<br>
+		I don't like as much as you..<br>
+		So what happened?]<br>
+<br>
+	I was driving on route 1,<br>
+		it was the first escape I could find.<br>
+	Now I need the windows down,<br>
+		I've got to get away from this town.<br>
+<br>
+	I won't be there tomorrow; I'm too far gone.<br>
+	Now I need the windows down,<br>
+		but I can't get those damned windows down.<br>
+<br>
+	I need the windows down.
+	</tt>
+	${footer}
+
+#define	duck.html
+	<head>
+	<title>Vergiftung Lyrics: Duck</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>D</font>uck</b>
+	${copyright}
+	<br><i>Lyrics </i>(such as they are)<i> by <b>Branam</b>,
+	music by <b>Whittemore</b></i>
+	</center>
+	<p>
+	Brady likes a challenge - you write something in a strange 6/8
+	with a single bar break of 32nd note kick drums, and he <b>still</b>
+	manages a lyrics.
+	<p>
+	This is actually a really sad song.  I wrote it the night.....
+	Well, let me start at the beginning.
+	I work late.  The summer of '93, when I would go outside, there
+	was a very large toad who would sit on the sidewalk under the light.
+	He was my pet, he was my friend.
+	<p>
+	One night, it was starting to storm, so i decided to take a look
+	outside, <i>as I opened the door, looked up to the sky, and
+	<b>stepped</b> outside...</i>  <blink>*Crunch*</blink>, he went.
+	<p>
+	Somewhere along the line, <i>toad</i> permuted into <i>duck</i>
+	(don't ask), and this is my obscure tribute to my dear, dear,
+	dead friend.
+	<br clear=all>
+	<hr>
+	<tt>
+	I'm damaged, the weather looks the same.<br>
+	Evening rain and morning coffee,<br>
+	Don't leave a stain mixing down the drain.<br>
+	Under the strain of living, everybody's feeling fine -<br>
+	I'll stay in bed.<br>
+	The train works but we've no power.<br>
+	Hoisery that's sliding, luggage lost in time.<br>
+	At the very least that's where I'm found.<br>
+	It's crowded here land-locked midland town.<br>
+	Yo-ho<br>
+	Yo-ho<br>
+	Yo-ho<br>
+	Yo-ho!<br>
+	I'm seeing ducks...<br>
+	Has it gone that far?<br>
+	They don't give a fuck.<br>
+	Chunking in their favourite...<br>
+	Bar.
+	</tt>
+	${footer}
+
+#define	orbit.html
+	<head>
+	<title>Vergiftung Lyrics: Orbit</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>O</font>rbit</b>
+	${copyright}
+	<br><I>lyrics & music by <b>Whittemore</b></I>
+	</center>
+	<br>Features A <b>Real Drummer!</b>:
+	Chris Brick, Battery Studio recording tech - for $20!
+	You will find his name (and
+	<a href="${jbc_people}/martin_stebbing.html">Martin's</a>)
+	on the back of the Will Smith (The Fresh Prince) single of
+	<i>Boom! Boom! Shake The Room</i>.
+	<br>Bass samples constructed from a vocal introduction taken
+	from live set by folk artist <b>Carrie Newcomer</b>
+	(her latest album album is on Rounder Records - buy it!)
+	<p>
+	This was probably my very first song with a traditional verse,
+	chorus, verse, chorus, verse arrangement, and it happened
+	completely by accident; at the time I didn't really pay attention
+	what differentiated a verse from a chorus.
+	But my adopted boy genius was egging me on, so I kept with it until
+#	<!--
+#	the time came when
+#	<a href="gopher://ukcc.uky.edu:105/2?fast">
+#	<b>she whose name shall not be spoken</b></a>
+#	(<a href="http://otter.dai.ed.ac.uk:3034/">ed's</a>
+#	term "poison dwarf" applies) walked out and
+#	-->
+	the words finally presented themselves.  Along the Vergiftung time-line,
+	this is about when the mad-in-intensity
+	<a href="${v_root}/sharp.html">Sharp</a>/Whittemore line-up became the
+	mad-about-melody Whittemore/Branam line-up.
+	Basically, this is where we stopped being chaos, whether that
+	be good or whether that be bad.
+	<p>
+	There are 5 melodies fighting it out during the chorus.
+	<p>
+	Oh yeah, lyrics.... as <a href="${jbc_root}">Pat Fish</a>
+	would say: "<i>Whaddya want, a diagram?</i>"
+	<p>
+	<hr>
+	<tt>
+	Her hair went from blonde to brown,<br>
+	My eyes from brown to green.<br>
+	In a downpour I was taken,<br>
+	By the bluest eyes I'd ever seen.<br>
+<br>
+	I know that wanting love is simply not enough,<br>
+	But living lost in her eyes is where I'm caught.<br>
+<br>
+	Coz we went spinning,<br>
+	I was taken,<br>
+	Drawn by her gravity<br>
+<br>
+	Well I never thought<br>
+	After all the love and talks<br>
+	That I'd never<br>
+	That I'd never<br>
+	That I'd never see her again<br>
+<br>
+	What had happened happens over and over:<br>
+	This selfish notion to share love with another<br>
+	Always ends in carpet-eating misery<br>
+	Its a mystery.<br>
+	Why she said that I could not talk,<br>
+	I say she did not care.<br>
+<br>
+	Well I never thought<br>
+	After all the PAIN and talks<br>
+	That I'd never<br>
+	That I'd never<br>
+	That I'd never see her again<br>
+<br>
+	Won't you tell her that I need her love tonight<br>
+	Won't you tell me where my love has gone tonight<br>
+	Won't you tell her that I need her love tonight<br>
+	I only ever tried to please her<br>
+	Now she's under anesthesia<br>
+<br>
+	Still..
+	</tt>
+	${footer}
+
+#define	pluto.html
+	<head>
+	<title>Vergiftung Lyrics: Pluto</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>P</font>luto</b> (live, 28Sep91)
+	${copyright}
+	</center>
+	<br>Samples from the tune <i>Pluto</i> by that looney German band
+	<a href="http://www.fuego.de/mww/"><b>M
+		Walking On The Water</b></a>.
+	and the <i>English</i> parts of a Korean Language tape.
+	<br>Line-up: samplers, <a href="${del_root}">Whittemore</a>,
+	<a href="${v_root}/sharp.html">Sharp</a>,
+	Davison, Random tapes: Long.
+	<p>
+	Boy is this one old!  The local "indie" record store (Von's)
+	holds a couple of open-air concerts behind their store each summer,
+	and somehow we managed to obtain permission to play.
+	<p>
+	Fools.
+	<p>
+	At the time, we (Matt and I, and John Davison, and Jody Long loosely)
+	<b>just</b> had enough material together to pull it off - we
+	practiced for a couple of hours that afternoon, had a rough map
+	of what backing tapes Jody was to use, and <b>no</b> idea how long
+	it would take to actually set up the equipment.
+	<p>
+	The show was one of those 10 bands in 5 hours deal, and we took up
+	one full hour to figure out the connections.
+	So, my genius adopted son, Jody entertained the audience with his weird
+	mix of disco/sound effects/skipping CD tapes.
+	This, of course, cut the next band's set considerably short.
+	A historical sidenote: the next band was <b>Face 4-1</b>, a popular
+	local disco-fag band.  Their singer?
+	One <a href="${del_images}/brady.jpg">Brady Branam</a>,
+	the guy who is now in Vergiftung.
+	<p>
+	The show went really well despite all the technological horrors
+	and the audience, perplexed as they were,
+	didn't throw stuff, somewhat to our disappointment.
+
+	${footer}
+
+#define	sandwich.html
+	<head>
+	<title>Vergiftung Lyrics: The Sandwichmaker</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>T</font>he <font size=+2>S</font>andwichmaker</b>
+	${copyright}
+	<br><I>lyrics & music by <b>Branam</b></I>
+	</center>
+	<br>Brady and I shared a really shitty apartment one summer.
+	I slept on the couch, and we refused to ever take the trash out.
+	One evening, on a walk to get more Lucky Strikes, Brady found
+	a Sears acoustic guitar in a dumpster.  I hated that place.
+	<br>Only after reading
+	<a href="http://www.umd.umich.edu/~nhughes/dna/">Douglas Adam's
+	</a> <i>Mostly Harmless</i> did I begin to understand this song.
+	<hr>
+	<tt>
+	I once had a brain<br>
+	Then I got lucky.<br>
+	I wouldn't call it luck now.<br>
+<br>
+	I'm looking for the last chance breakfast bar.<br>
+	Has anyone seen my car<br>
+	No resistance<br>
+	I can only see so far<br>
+<br>
+	The pancake I'm in love with<br>
+	Is the one before the last one, baby.<br>
+	Honey scarred and periphery lighting<br>
+	Condiments for the planned in-fighting<br>
+	I'm hanging out.<br>
+	Bits are falling onto the linoleum.<br>
+	It's easy to clean<br>
+	But I can't puzzle out where the pieces fit the dream<br>
+<br>
+	The pantry's bare<br>
+	Lee there - he holds a mayonnaise.<br>
+	I won't tell him I left it out<br>
+	He doesn't know that's what it's about.<br>
+<br>
+	I'm watching luge bowling<br>
+	Lottery programs: too embarrassing.<br>
+	Reading in bed<br>
+	Afternoon drinking<br>
+<br>
+	It's harder though when I stopped thinking<br>
+<br>
+	The pancake I'm in love with<br>
+	Is the one before the last one, baby.<br>
+	Honey scared and periphery lighting<br>
+	Condiments for the planned in-fighting<br>
+	I'm hanging out.<br>
+	Bits are falling onto the linoleum.<br>
+	It's easy to clean<br>
+	But I can't puzzle out where the pieces fit the dream
+	</tt>
+	${footer}
+
+#define	thursday.html
+	<head>
+	<title>Vergiftung Lyrics: Perpetually Thursday</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>P</font>erpetually <font size=+2>T</font>hursday</b>
+	${copyright}
+	<br> <i>lyrics by</i> <b>Branam</b> <i>tune by</i> <b>Whittemore</b>
+	</center>
+	<p>
+	Hmmm.  This is a case of Brady crucifying what once was an instrumental
+	built out of Thelonius Monk samples and a catchy 10-bar bassline.
+	<p>
+	The first line explains the title.  Maybe.
+	<hr>
+	<tt>
+	There's a girl named Friday I never see.<br>
+	Only home one night a week<br>
+	Thankfully message machines<br>
+	20 seconds is all to be quickly sincere.<br>
+	Her cats are bored alone<br>
+	Erasing all they hear<br>
+	What's she selling on nights like bliss?<br>
+	An olive moon is rising too far away to kiss<br>
+	It's pathetic<br>
+	It's an awful mess<br>
+	To begin the day on the wrong foot<br>
+	In the wrong color dress<br>
+	How's she to know?<br>
+	How desparately thirsting<br>
+	The game is televised<br>
+	There's no hope for thursday<br>
+	Where does she move<br>
+	The same space everyday<br>
+	Heard about tomorrow<br>
+	But thursday's here to stay<br>
+	Thursday's here to stay
+	</tt>
+	${footer}
+
+#define	urgent.html
+	<head>
+	<title>Vergiftung Lyrics: Urgent/Aid</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>U</font>rgent/<font size=+2>A</font>id</b>
+	${copyright}
+	<br><I>Instrumental dance thang by <b>Whittemore</b></I>
+	</center>
+	<br>Samples from all over the place.
+	<p>
+	One afternoon a couple of summers ago, I attended the annual
+	Omelette and Daiquiri Summit hosted by
+	Dennis Hilgenberg and
+	John Davison
+	where quite a bit of hardcore techno was playing.
+	I thought that perhaps that stuff wasn't too difficult to program,
+	so I went home and tossed this thing off.
+	It shows its age in places, but there are plenty of changes to
+	keep it interesting.
+
+	${footer}
+
+#define	whale.html
+	<head>
+	<title>Vergiftung Lyrics: Whale</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>W</font>hale</b>
+	${copyright}
+	<br><I>lyrics by <b>Branam</b> tune by <b>Whittemore</b></I>
+	</center>
+	<br>Whales from <i>Songs Of The Humpback Whale</i>,
+		Living Music, LD0021.
+	<p>
+	This song is about ${eval(${_current_year} - 1992)} years old now;
+	it was inspired in part by
+	the <b>Hypnotone</b> album <i>Ai</i> (Creation Records, 1991).
+	Versions of Whale have been done in the studio
+	with real mics and everything, but this version is one of the earliest
+	we ever did (mastered to cassette, shamefully) simply because the guitar
+	sounds we got from <b>the black box</b> were just too beautiful and
+	un-reproducable in the studio.
+	<p>
+	Sure, its disco, but i love how
+	it takes 3 minutes to build up and the release at the end is (to me)
+	very emotional for a front-room recording.
+	<hr>
+	<tt>
+	Smoke screams through a silent movie<br>
+	Cold and silver night.<br>
+	Her hands touch soundlessly<br>
+	Like these distant dancing lights.<br>
+	This is as close<br>
+	Shapes in empty waters sink.<br>
+	Her surest breathing hides<br>
+	More than shadows in her eyes.<br>
+<br>
+	Our last grey leaving hour.<br>
+	The colours hold their stare.<br>
+	No light reveiling<br>
+	No curtains conceding.<br>
+	Could you disappear<br>
+	If you were never really here?
+	</tt>
+	${footer}
+
+#define	why.html
+	<head>
+	<title>Vergiftung Lyrics: Why?</title>
+	</head>
+	${top}
+	<center>
+	<b><font size=+2>W</font>hy?</b>
+	${copyright}
+	<br><i>lyrics &amp; music by <b>Whittemore</b></i>
+	</center>
+	<br>Features guitar sample from <b>Ken Chamber's</b> <i>Above You</i>
+	(TAANG! 83).
+	<br>(its been over ${eval(${_current_year} - 1993)} years since
+	<a href="gopher://ukcc.uky.edu:105/2?fast">she</a>
+	left and i am still writing shit like this - someone kill me)
+#	<!--
+#	<p>
+#	<b>Update!</b> There is some
+#	<a href="${del_root}/newsflash.html">good news!</a>
+#	-->
+	<hr>
+	<tt>
+	Why<br>
+	Why<br>
+	Why'd you have to go?<br>
+	Why<br>
+	Was<br>
+	I the last to know?<br>
+	I don't know how I'm living.<br>
+	I don't know who you're giving to..<br>
+<br>
+	It seems I just got here - It could have been years.<br>
+	It's been a long time.<br>
+	It seems I just got here - It could just be days.<br>
+	When will you go away?<br>
+<br>
+	Why<br>
+	Why'd you have to go?<br>
+	Why<br>
+	Was<br>
+	I the last to know?<br>
+	I don't know how I'm living.<br>
+	I don't know who you're giving to<br>
+	These days.<br>
+<br>
+	I don't care anymore - You walked out on me.<br>
+	I don't care anymore.<br>
+	I don't know anymore - Just where I'm going.<br>
+	When I close the door.<br>
+<br>
+	Why<br>
+	Why'd you have to go?<br>
+	Why<br>
+	Was<br>
+	I the last to know?<br>
+	I don't know how I'm living.<br>
+	I don't know who you're giving to<br>
+	These days.<br>
+	These days.<br>
+	These days.<br>
+	These days.
+	</tt>
+	${footer}

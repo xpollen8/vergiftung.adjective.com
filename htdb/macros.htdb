@@ -1,0 +1,19 @@
+#define	jbc_people	https://jazzbutcher.com/conspirators
+#define	jbc_lyrics	https://jazzbutcher.com/lyrics
+
+#define	icon_penguin
+	<img src="${images}/penguin.gif" height=59 width=51 border=0>
+#define	icon_duck
+	<img src="${images}/duk.gif" height=64 width=51 border=0>
+#define	copyright
+	${icon_copyright}
+		<a href="${v_root}/site/copyright.html">Copyright 1988 -
+			${_current_year}</a>
+#define	background
+	<body background="${v_images}/penguins.jpg">
+#define	header
+	${background}
+	<font size=+2><a href=${v_root}/index.html><b>Vergiftung</b></a></font>
+#define	link_audio
+	<img src="https://sumosonic.com/images/audio.gif"
+		border=0 height=25 width=66 alt="Audio">
